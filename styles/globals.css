@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    @apply scrollbar-thin bg-black scrollbar-thumb-cyan-600 scrollbar-thumb-rounded-2xl
+}
